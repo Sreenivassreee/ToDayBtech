@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    android:id="@+id/container"
+    android:animateLayoutChanges="true"
+    android:duration="@android:integer/config_longAnimTime"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:paddingTop="20dp"
+    android:background="@drawable/mmmmain_wall">
+    <!--android:background="@drawable/welcome_back"-->
+
+
+    <TextView
+        android:id="@+id/tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/arial"
+        android:text="@string/todaybtech2"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/bradley_hand"
+            android:text="@string/you_are_not_connected_to_the_internet"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/bradley_hand"
+            android:text="@string/you_must_connect_to_a_wi_fi_or_mobile_network_to_use_this_application"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+
+        <Space
+            android:id="@+id/hardnoice"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+
+           />
+
+        <Button
+            android:id="@+id/trybtn"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:background="@drawable/trybtn"
+            android:fontFamily="@font/arial"
+            android:text="@string/try_again"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+
+            android:id="@+id/love"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/makewith"
+            android:contentDescription="@string/todo" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

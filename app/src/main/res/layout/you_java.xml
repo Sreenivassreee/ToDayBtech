@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tutorials.you_java"
+    android:orientation="vertical"
+    android:background="#7F7F7F">
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_view_java"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/buttonplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Play"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/arial">
+
+        </Button>
+
+        <Button
+            android:id="@+id/you_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/back"
+            android:fontFamily="@font/arial"
+
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp">
+
+        </Button>
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/you_java_playlist"
+        android:layout_width="match_parent"
+        android:textAllCaps="true"
+        android:text="@string/all_individual_topics"
+        android:layout_height="80dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/arial"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:background="@drawable/all_individual"
+        android:focusable="true" />
+
+
+
+
+</LinearLayout>

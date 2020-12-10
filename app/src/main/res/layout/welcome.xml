@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    android:id="@+id/container"
+    android:animateLayoutChanges="true"
+    android:duration="@android:integer/config_longAnimTime"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Welcome"
+    android:paddingTop="20dp"
+    android:background="@drawable/mmmmain_wall">
+    <!--android:background="@drawable/welcome_back"-->
+
+
+    <TextView
+        android:id="@+id/tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="20dp"
+        android:textAlignment="center"
+        android:text="@string/todaybtech2"
+        android:textAllCaps="false"
+        android:textSize="50sp"
+        android:fontFamily="@font/arial"
+        android:textColor="@color/white"
+
+        />
+
+    <!--<Button-->
+        <!--android:id="@+id/TTTTTEst"-->
+        <!--android:layout_width="39dp"-->
+        <!--android:layout_height="18dp"-->
+        <!--android:text="Test" />-->
+
+    <TextView
+        android:id="@+id/hardnoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/love"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/work_hard_in_silence_let_result_will_make_the_noise"
+        android:fontFamily="@font/bradley_hand"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+
+
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        />
+
+    <ImageView
+
+        android:id="@+id/love"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="73dp"
+
+
+        android:layout_marginBottom="35dp"
+        android:src="@drawable/makewith"
+ />
+
+
+</RelativeLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upload_main_page">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        app:titleTextColor="@color/white"
+        app:subtitleTextColor="@color/white"
+
+        android:background="@color/sree"
+        android:minHeight="55dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+
+     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/main_upload_back"
+            >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/follow_below_steps_to"
+                android:textAlignment="center"
+                android:textColor="@color/sree"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/arial"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/step_1_the_clarity_of_pdf_must_in_best_quality_in_mobial_use_cam_scaner_to_scan"
+                android:textAlignment="textStart"
+                android:textColor="@color/Black"
+                android:textSize="17sp"
+                android:fontFamily="@font/arial"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/step_2_give_proper_name_to_pdf_which_cover_branch_year_sem_and_subject_name_ex_2_2_cse_java"
+                android:textAlignment="gravity"
+                android:textColor="@color/Black"
+                android:textSize="17sp"
+                android:fontFamily="@font/arial"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="53dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/thanks_for_your_support"
+                android:textAlignment="center"
+                android:textColor="@color/Black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/arial"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+ </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="7dp"
+        android:paddingBottom="30dp"
+        android:background="@drawable/upload_main_bottom">
+
+        <Button
+            android:id="@+id/whatsapp_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/whatsapp" />
+
+        <Button
+            android:id="@+id/Mail_share_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignTop="@+id/whatsapp_btn"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/mail" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

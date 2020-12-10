@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MergeRootFrame"
+    tools:context=".B_pri_ece_1_2">
+    <WebView
+        android:id="@+id/pri_ece_1_2_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="40dp" />
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="top"
+        app:titleTextColor="@color/white"
+        app:subtitleTextColor="@color/white"
+        android:background="@color/sree"
+        android:minHeight="40dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
+</FrameLayout>

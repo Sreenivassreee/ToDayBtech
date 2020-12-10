@@ -1,0 +1,263 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <!--android:clipToPadding="true"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_gravity="center_vertical"
+
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:context=".All_off_webs">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:background="@color/sree"
+                android:minHeight="55dp"
+                app:subtitleTextColor="@color/white"
+                app:titleTextColor="@color/white">
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+            <!--<Space-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="10dp" />-->
+
+
+            <!--app:layout_constraintBottom_toTopOf="@+id/priviousbtn"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.341"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--app:layout_constraintVertical_bias="0.479" />-->
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+
+
+                android:layout_marginLeft="5dp"
+
+
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/where"
+                android:fontFamily="@font/arial"
+
+
+                android:text="@string/jntua_websites"
+
+                android:textAlignment="center"
+                android:textColor="@color/Red"
+
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/off_jntua"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="14dp"
+
+                android:layout_marginRight="14dp"
+                android:background="#930EA8"
+                android:fontFamily="@font/arial"
+                android:text="@string/jntua"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.509"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--app:layout_constraintVertical_bias="0.201" />-->
+
+            <Button
+                android:id="@+id/off_Results"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+
+                android:background="#C56300"
+                android:fontFamily="@font/arial"
+                android:text="@string/results"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+                />
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.509"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/priviousbtn" />-->
+
+
+            <Button
+                android:id="@+id/off_updates"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:background="#BC390E"
+                android:fontFamily="@font/arial"
+                android:text="@string/examination_updates"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+
+                android:textSize="19sp" />
+
+
+            <Button
+                android:id="@+id/off_jntua_updates"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="14dp"
+                android:background="#286681"
+                android:fontFamily="@font/arial"
+                android:text="JNTUA fast updates"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+
+
+                android:textSize="19sp" />
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.509"-->
+            <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+            <!--<Button-->
+            <!--android:id="@+id/notes"-->
+            <!--android:layout_width="330dp"-->
+            <!--android:layout_height="37dp"-->
+
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+
+            <!--android:background="@drawable/notebtn"/>-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.509"-->
+            <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+
+            <!--<Button-->
+            <!--android:id="@+id/impbtn"-->
+            <!--android:layout_width="330dp"-->
+            <!--android:layout_height="37dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:background="@drawable/impbtn"-->
+            <!--android:textSize="18dp"/>-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.509"-->
+            <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+            <!--<Button-->
+            <!--android:id="@+id/Noti_btn"-->
+            <!--android:layout_width="330dp"-->
+            <!--android:layout_height="37dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:background="@drawable/notifi_btn"-->
+            <!--android:textSize="18dp">-->
+
+            <!--</Button>-->
+
+            <!--<Button-->
+            <!--android:id="@+id/pro_notes"-->
+            <!--android:layout_width="330dp"-->
+            <!--android:layout_height="37dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:hint="Technical "-->
+            <!--android:textSize="18dp"-->
+            <!--android:textAlignment="center">-->
+            <!--</Button>-->
+
+            <!--android:background="@drawable/notifi_btn"-->
+
+
+            <!--<Button-->
+            <!--android:id="@+id/off_webs"-->
+            <!--android:layout_width="330dp"-->
+            <!--android:layout_height="37dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:hint="Official Websites"-->
+            <!--android:textSize="18dp"-->
+            <!--android:textAlignment="center">-->
+
+            <!--</Button>-->
+            <!--&lt;!&ndash;app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.509"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--app:layout_constraintVertical_bias="0.201" />-->
+
+
+            <!--<Button-->
+            <!--android:id="@+id/midquationpapers"-->
+            <!--android:layout_width="315dp"-->
+            <!--android:layout_height="40dp"-->
+
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="24dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:background="@drawable/midquationpapers"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintHorizontal_bias="0.509"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toBottomOf="@+id/timetables" />-->
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+
+        </LinearLayout>
+    </TableLayout>
+
+</ScrollView>
+
+
+
+

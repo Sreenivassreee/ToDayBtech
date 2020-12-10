@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".student_details"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DFDFFA">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/brain_logo"
+            android:contentDescription="@string/todo"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/googlesecure" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:orientation="vertical"
+            tools:context=".All_off_webs"
+
+
+            >
+
+
+            <EditText
+                android:id="@+id/stu_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:autofillHints="Name"
+                android:background="@drawable/stu_name"
+
+                android:fontFamily="@font/arial"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+
+                android:paddingStart="45dp"
+
+                android:textColor="@color/Gray"
+                android:textColorHint="@color/Gray"
+                android:textSize="18sp"
+
+
+                />
+
+            <EditText
+                android:id="@+id/stu_Email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/stu_mail"
+                android:fontFamily="@font/arial"
+                android:hint="@string/mail"
+                android:importantForAutofill="yes"
+                android:inputType="textEmailAddress"
+                android:paddingStart="45dp"
+                android:textColor="@color/Gray"
+                android:textColorHint="@color/Gray"
+
+
+                android:textSize="18sp" />
+
+
+            <EditText
+
+                android:id="@+id/PhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:autofillHints="yes"
+                android:background="@drawable/stu_number"
+                android:fontFamily="@font/arial"
+                android:hint="@string/phone_number"
+                android:inputType="number"
+
+                android:maxLength="13"
+                android:paddingStart="45dp"
+                android:textColor="@color/Gray"
+                android:textColorHint="@color/Gray"
+
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/groups"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+                android:background="@drawable/stu_course"
+
+                android:entries="@array/Group"
+                android:fontFamily="@font/arial"
+
+
+                android:textAlignment="center"
+
+
+                android:textDirection="ltr"
+
+                >
+
+            </Spinner>
+
+
+            <Spinner
+                android:id="@+id/year"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+
+
+                android:background="@drawable/stu_yearsem"
+                android:entries="@array/Year"
+                android:textAlignment="center"
+
+
+                >
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/college"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:autofillHints="yes"
+                android:background="@drawable/stu_college"
+                android:fontFamily="@font/arial"
+                android:hint="@string/college_name"
+                android:inputType="text"
+                android:paddingStart="45dp"
+                android:textColor="@color/Gray"
+                android:textColorHint="@color/Gray"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/Comments"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/stu_message"
+                android:fontFamily="@font/arial"
+                android:hint="@string/write_your_message"
+                android:importantForAutofill="yes"
+                android:inputType="text"
+                android:paddingStart="45dp"
+                android:textColor="@color/Gray"
+                android:textColorHint="@color/Gray"
+
+
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/stu_submit"
+                android:fontFamily="@font/arial"
+                android:text="@string/submit"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="25sp"
+
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

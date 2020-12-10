@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            tools:context=".note_cources"
+
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical">
+            <!--android:background="@drawable/background"-->
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                app:titleTextColor="@color/white"
+                app:subtitleTextColor="@color/white"
+                android:background="@color/sree"
+                android:minHeight="55dp"
+                android:fontFamily="@font/arial">
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+
+            <Button
+
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+
+                android:background="@drawable/where"
+
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/arial"
+
+
+
+                android:textAlignment="center"
+
+                android:textColor="@color/Red"
+                android:textSize="17sp"
+                android:text="@string/lecture_notes_courses"/>
+
+
+
+
+            <Button
+                android:id="@+id/notes_csebtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="14dp"
+                android:background="#930EA8"
+                android:fontFamily="@font/arial"
+                android:text="@string/cse"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/notes_ecebtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:background="#0A3881"
+                android:fontFamily="@font/arial"
+                android:text="@string/ece"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/notes_eeebtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:background="#BC390E"
+                android:fontFamily="@font/arial"
+                android:text="@string/eee"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/notes_civilbtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:background="#0074BB"
+                android:fontFamily="@font/arial"
+                android:text="@string/civil"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+
+
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/notes_mechbtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="14dp"
+                android:background="#C56300"
+                android:fontFamily="@font/arial"
+                android:text="@string/mech"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+
+                android:textSize="17sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+    </TableLayout>
+</ScrollView>

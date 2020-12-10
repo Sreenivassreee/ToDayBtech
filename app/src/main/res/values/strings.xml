@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">ToDayBtech</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="cloud_paint" />
+    <string name="title_activity_drawer">ToDayBtech</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ToDayBtech</string>
+    <string name="nav_header_subtitle">SteveHomes</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="cse">Computer science [ CSE ]</string>
+    <string name="ece">Electronics and Communication [ ECE ]</string>
+    <string name="eee">Electrical and Electronics [ EEE ]</string>
+    <string name="civil">Civil Engineering [ civil ]</string>
+    <string name="mech">mechanical Engineering [ mech ]</string>
+
+
+    <string name="a1_1">1-1</string>
+    <string name="a1_2">1-2</string>
+    <string name="a2_1">2-1</string>
+    <string name="a2_2">2-2</string>
+    <string name="a3_1">3-1</string>
+    <string name="a3_2">3-2</string>
+    <string name="a4_1">4-1</string>
+    <string name="a4_2">4-2</string>
+
+
+    <string name="tutorials_drawing_content"><![CDATA[Tutorials > Drawing content]]></string>
+    <string name="projections_of_lines">Projections of Lines</string>
+    <string name="projections_of_solids">Projections of Solids</string>
+    <string name="developments_of_surfaces">Developments of Surfaces</string>
+    <string name="isometric_projections">Isometric Projections</string>
+    <string name="orthographic_projections">Orthographic Projections</string>
+    <string name="involute">involute</string>
+    <string name="cycloidal_curves">cycloidal curves</string>
+    <string name="conic_section_curves">conic section curves</string>
+    <string name="projections_of_points">projections_of_points</string>
+
+
+    <string name="syll">Syllabus Copies And Important Quations</string>
+    <string name="select">Select</string>
+    <string name="name">Name</string>
+    <string name="stevebrains_community">SteveBrains Community</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="whatsapp_group">Whatsapp group</string>
+    <string name="google_playstore">Google PlayStore</string>
+    <string name="feedback">Feedback</string>
+
+    <string name="website">Website</string>
+    <string name="youtube">Youtube</string>
+    <string name="share_with_btech_friends">Share with Btech Friends</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="about">About</string>
+    <string name="aboutus">AboutUs</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="send_your_materials">Send Your Materials</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="logout">Logout</string>
+    <string name="help">Help</string>
+    <string name="login">Login</string>
+
+
+    <string name="examination_updates">Examination Updates</string>
+    <string name="results">Results</string>
+    <string name="jntua_websites">JNTUA Websites</string>
+    <string name="jntua">jntua</string>
+
+    <string name="jntua_notes_cse_semesters"><![CDATA[JNTUA Notes > Cse > Semesters]]></string>
+    <string name="jntua_notes_ece_semesters"><![CDATA[JNTUA Notes > ece > Semesters]]></string>
+    <string name="_2_2">2-2</string>
+    <string name="jntua_notes_mech_semesters"><![CDATA[JNTUA Notes > mech > Semesters]]></string>
+
+
+    <string name="lecture_notes_civil_semesters"><![CDATA[Lecture Notes > civil > Semesters]]></string>
+    <string name="lecture_notes_courses"><![CDATA[Lecture Notes > Courses]]></string>
+    <string name="lecture_notes_cse_semesters"><![CDATA[Lecture Notes > cse > Semesters]]></string>
+    <string name="lecture_notes_ece_semesters"><![CDATA[Lecture Notes > ece > Semesters]]></string>
+    <string name="lecture_notes_eee_semesters"><![CDATA[Lecture Notes > eee > Semesters]]></string>
+    <string name="lecture_notes_mech_semesters"><![CDATA[Lecture Notes > mech > Semesters]]></string>
+
+
+    <string name="previous_papers_civil_semesters"><![CDATA[Previous Papers > Civil > Semesters]]></string>
+    <string name="previous_papers_courses"><![CDATA[Previous Papers > Courses]]></string>
+    <string name="previous_papers_cse_semesters"><![CDATA[Previous Papers > cse > Semesters]]></string>
+    <string name="previous_papers_ece_semesters"><![CDATA[Previous Papers > ece > Semesters]]></string>
+    <string name="previous_papers_eee_semesters"><![CDATA[Previous Papers > eee > Semesters]]></string>
+    <string name="previous_papers_mech_semesters"><![CDATA[Previous Papers > Mech > Semesters]]></string>
+
+
+    <string name="syllabus_copies_courses"><![CDATA[Syllabus Copies > Courses]]></string>
+    <string name="syllabus_copies_civil_semesters"><![CDATA[Syllabus Copies > Civil > Semesters]]></string>
+    <string name="syllabus_copies_cse_semesters"><![CDATA[Syllabus Copies > Cse > Semesters]]></string>
+    <string name="syllabus_copies_ece_semesters"><![CDATA[Syllabus Copies > ece > Semesters]]></string>
+    <string name="syllabus_copies_eee_semesters"><![CDATA[Syllabus Copies > eee > Semesters]]></string>
+    <string name="syllabus_copies_mech_semesters"><![CDATA[Syllabus Copies > mech > Semesters]]></string>
+
+
+    <string name="follow_below_steps_to">Follow below steps to send Materials to Us</string>
+    <string name="step_1_the_clarity_of_pdf_must_in_best_quality_in_mobial_use_cam_scaner_to_scan">Step 1 : The Clarity of PDF must in best Quality [ In mobial use cam scaner to Scan. ]</string>
+    <string name="step_2_give_proper_name_to_pdf_which_cover_branch_year_sem_and_subject_name_ex_2_2_cse_java">Step 2 : Give Proper name to PDF , Which Cover Branch , Year , sem and Subject Name. [ Ex: 2-2_CSE_Java ]</string>
+    <string name="thanks_for_your_support">Thanks for Your Support</string>
+    <string name="work_hard_in_silence_let_result_will_make_the_noise">WORK HARD IN SILENCE LET RESULT WILL MAKE THE NOISE..</string>
+
+    <string name="college_name">College Name</string>
+    <string name="write_your_message">Write Your Message</string>
+    <string name="submit">Submit</string>
+    <string name="mail">Mail</string>
+    <string name="phone_number">Phone Number</string>
+
+    <string name="previous_question_papers">Previous question papers</string>
+    <string name="jntua_official_notes">JNTUA Official Notes</string>
+    <string name="lecture_notes">Lecture Notes</string>
+    <string name="top_100_interview_questions">Top 100 Interview Questions</string>
+    <string name="learning_space">Learning Space</string>
+    <string name="free_tutuorials">Free Tutuorials</string>
+    <string name="get_updates">Get Updates</string>
+    <string name="campus_interaction">Campus Interaction</string>
+    <string name="jntua_official_websites">JNTUA Official Websites</string>
+    <string name="name_sreenivas_k">Name : Sreenivas k</string>
+    <string name="company_stevehomes">Company : SteveBrains</string>
+    <string name="developers">SteveBrains Developers</string>
+    <string name="gmail_stevehomes143_gmail_com">Gmail : stevehomes143@gmail.com</string>
+
+    <string name="jntua_notes_eee_semesters"><![CDATA[JNTUA Notes > eee > Semesters]]></string>
+    <string name="jntua_notes_civil_semesters"><![CDATA[JNTUA Notes > Civil > Semesters]]></string>
+    <string name="jntua_notes_courses"><![CDATA[JNTUA Notes > Courses]]></string>
+    <string name="engineering_drawing">Engineering Drawing</string>
+    <string name="tutorials">Tutorials</string>
+
+    <string name="java">Java</string>
+    <string name="c">C</string>
+    <string name="android_application_development">android Application Development</string>
+    <string name="python">python</string>
+    <string name="linux">Linux  [ Ubuntu ]</string>
+    <string name="msg_token_fmt">msg_token</string>
+    <string name="play">play</string>
+    <string name="back">Back</string>
+    <string name="all_individual_topics">All individual Topics</string>
+    <string name="you_are_not_connected_to_the_internet">You are not connected to the internet.</string>
+    <string name="you_must_connect_to_a_wi_fi_or_mobile_network_to_use_this_application">You must connect to a Wi-Fi or mobile network to use this Application.</string>
+    <string name="try_again">Try Again</string>
+    <string name="todaybtech2">ToDayBtech</string>
+    <string name="git_hub">Git Hub</string>
+    <string name="academic_calenders">Academic Calenders</string>
+    <string name="gmail">Gmail</string>
+    <string name="ms_g_divya_zion_n_mam">Ms G.Divya Zion  Mam</string>
+    <string name="iii_cse_a">III CSE A</string>
+    <string name="todo">TODO</string>
+    <string name="mr_k_lokesh_sir">Mr K.Lokesh</string>
+    <string name="Abc">: :</string>
+
+
+    <array name="Group">
+        <item name="CSE">CSE</item>
+        <item name="EEE">EEE</item>
+        <item name="ECE">ECE</item>
+        <item name="MECH">MECH</item>
+        <item name="CIVIL">CIVIL</item>
+        <item name="IT">IT</item>
+
+
+    </array>
+
+    <!--<array name="Year" >-->
+
+    <string-array name="Year">
+
+        <item name="1-1">1-1</item>
+        <item name="1-2">1-2</item>
+        <item name="2-1">2-1</item>
+        <item name="2-2">2-2</item>
+        <item name="3-1">3-1</item>
+        <item name="3-2">3-2</item>
+        <item name="4-1">4-1</item>
+        <item name="4-2">4-2</item>
+
+    </string-array>
+
+    <!--</array>-->
+
+
+</resources>

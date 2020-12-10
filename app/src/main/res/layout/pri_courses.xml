@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        app:titleTextColor="@color/white"
+        app:subtitleTextColor="@color/white"
+        android:background="@color/sree"
+        android:minHeight="55dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+     >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical"
+                tools:context=".pri_courses"
+
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical">
+                <!--android:background="@drawable/background"-->
+
+
+
+
+                <Button
+
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+
+                    android:background="@drawable/where"
+
+
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/arial"
+
+
+
+                    android:textAlignment="center"
+
+                    android:textColor="@color/Red"
+                    android:textSize="17sp"
+                    android:text="@string/previous_papers_courses"/>
+
+
+
+                <Button
+                    android:id="@+id/pri_csebtn"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="#930EA8"
+                    android:textSize="17sp"
+                    android:text="@string/cse"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/arial"
+                    />
+                <Button
+                    android:id="@+id/pri_ecebtn"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="#0A3881"
+                    android:textSize="17sp"
+                    android:text="@string/ece"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/arial"/>
+                <Button
+                    android:id="@+id/pri_eeebtn"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="#BC390E"
+                    android:textSize="17sp"
+                    android:text="@string/eee"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/arial"
+
+                    />
+                <Button
+                    android:id="@+id/pri_civilbtn"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="#0074BB"
+                    android:textSize="17sp"
+                    android:text="@string/civil"
+                    android:textAllCaps="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="14dp"
+                    android:fontFamily="@font/arial"
+
+
+                    />
+
+                <Button
+                    android:id="@+id/pri_mechbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="14dp"
+                    android:background="#C56300"
+                    android:fontFamily="@font/arial"
+                    android:text="@string/mech"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+
+
+            </LinearLayout>
+        </TableLayout>
+    </ScrollView>
+
+
+</LinearLayout>

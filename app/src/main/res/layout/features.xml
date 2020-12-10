@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <LinearLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        tools:context=".features"
+        tools:openDrawer="start"
+
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@color/sree"
+            android:fontFamily="@font/arial"
+            android:gravity="top"
+            android:minHeight="60dp"
+
+
+            app:subtitleTextColor="@color/white"
+            app:titleTextColor="@color/white">
+            <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="-2dp">-->
+            <!--<Switch-->
+            <!--android:id="@+id/Switch"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:clickable="true"-->
+
+            <!--android:shadowColor="@color/Black"-->
+
+            <!--android:layout_gravity="left"-->
+            <!--size-->
+
+            <!--android:fontFamily="@font/arial"-->
+
+
+            <!--/>-->
+
+
+            <!--</LinearLayout>-->
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/sree"
+
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:orientation="vertical"
+                tools:context=".All_off_webs"
+
+
+                >
+
+
+
+                <Button
+
+                    android:id="@+id/syllabusbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/feature_btn4"
+                    android:fontFamily="@font/arial"
+                    android:text="@string/syll"
+                    android:textAlignment="center"
+                    android:textColor="@color/Text"
+                    android:textAllCaps="false"
+
+                    android:textSize="18sp">
+
+
+                </Button>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <Button
+                    android:id="@+id/matebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+
+                    android:background="@drawable/feature_btn4"
+                    android:fontFamily="@font/arial"
+                    android:text="@string/jntua_official_notes"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/Text"
+
+                    android:textSize="18sp">
+
+                </Button>
+
+
+                <Button
+                    android:id="@+id/academic_cal_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/feature_btn4"
+                    android:fontFamily="@font/arial"
+                    android:text="@string/academic_calenders"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/Text"
+
+                    android:textSize="18sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/feature_btn4"
+                    android:fontFamily="@font/arial"
+                    android:text="@string/lecture_notes"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/Text"
+
+                    android:textSize="18sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/priviousbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/feature_btn4"
+                    android:fontFamily="@font/arial"
+                    android:text="@string/previous_question_papers"
+
+                    android:textAlignment="center"
+                    android:textColor="@color/Text"
+                    android:textAllCaps="false"
+
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:id="@+id/java_questions"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/feature_btn4"
+                    android:fontFamily="@font/arial"
+                    android:text="@string/top_100_interview_questions"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/Text"
+                    android:textSize="18sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/tuto"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/feature_btn4"
+                    android:fontFamily="@font/arial"
+                    android:text="@string/free_tutuorials"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/Text"
+                    android:textSize="18sp">
+
+                </Button>
+
+
+                <Button
+                    android:id="@+id/pro_notes"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/feature_btn4"
+                    android:fontFamily="@font/arial"
+                    android:text="@string/learning_space"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/Text"
+
+                    android:textSize="18sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/off_AllWebs"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/feature_btn4"
+                    android:fontFamily="@font/arial"
+                    android:text="@string/jntua_official_websites"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/Text"
+
+                    android:textSize="18sp">
+
+                </Button>
+                <Button
+                    android:id="@+id/model_Resumes"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/feature_btn4"
+                    android:fontFamily="@font/arial"
+                    android:text="Model Resumes [ Editable ]"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/Text"
+
+                    android:textSize="18sp">
+
+                </Button>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/compus_intra"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/compus"
+                        android:fontFamily="@font/arial"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="@color/Text"
+
+
+                        android:textSize="18sp">
+
+                    </Button>
+
+                    <Button
+                        android:id="@+id/Noti_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/feature_btn4"
+                        android:fontFamily="@font/arial"
+                        android:text="@string/get_updates"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="@color/Text"
+
+                        android:textSize="18sp">
+
+                    </Button>
+
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_drawer"
+        app:menu="@menu/main_drawer_drawer">
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

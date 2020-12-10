@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            tools:context=".note_ece_yearsem"
+
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical">
+            <!--android:background="@drawable/background"-->
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                app:titleTextColor="@color/white"
+                app:subtitleTextColor="@color/white"
+
+                android:background="@color/sree"
+                android:minHeight="55dp">
+
+            </androidx.appcompat.widget.Toolbar>
+
+    <!--<TextView-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_span="2"-->
+        <!--android:text="Select your Year and Sem Here"-->
+        <!--android:textColor="@color/Black"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textAlignment="center"/>-->
+            <Button
+
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+
+                android:background="@drawable/where"
+
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/arial"
+
+
+
+                android:textAlignment="center"
+
+                android:textColor="@color/Red"
+                android:textSize="17sp"
+
+                android:text="@string/lecture_notes_ece_semesters"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="20dp">
+
+
+        <TableRow
+            android:layout_width="75dp"
+            android:layout_height="75dp">
+
+            <Button
+                android:id="@+id/note_ece_1_1_btn"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:clickable="true"
+                android:background="@drawable/button_1"
+                android:textSize="40sp"
+                android:text="@string/a1_1"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arial"
+                android:focusable="true" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+
+                android:id="@+id/note_ece_1_2_btn"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:clickable="true"
+                android:background="@drawable/button_1"
+                android:textSize="40sp"
+                android:text="@string/a1_2"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arial"
+                android:focusable="true" />
+        </TableRow>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+
+        <TableRow>
+
+
+            <Button
+
+                android:id="@+id/note_ece_2_1_btn"
+
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button_2"
+                android:textSize="40sp"
+                android:text="@string/a2_1"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arial"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/note_ece_2_2_btn"
+
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button_2"
+                android:textSize="40sp"
+                android:text="@string/a2_2"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arial"/>
+        </TableRow>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+
+
+
+        <TableRow>
+
+            <Button
+
+
+                android:id="@+id/note_ece_3_1_btn"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button_3"
+                android:textSize="40sp"
+                android:text="@string/a3_1"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arial"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+
+                android:id="@+id/note_ece_3_2_btn"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button_3"
+                android:textSize="40sp"
+                android:text="@string/a3_2"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arial"/>
+        </TableRow>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="15dp" />
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/note_ece_4_1_btn"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button_4"
+                android:textSize="40sp"
+                android:text="@string/a4_1"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arial"/>
+            <Space
+                android:layout_width="60dp"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/note_ece_4_2_btn"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/button_4"
+                android:textSize="40sp"
+                android:text="@string/a4_2"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arial"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </TableRow>
+    </TableLayout>
+        </LinearLayout>
+
+    </TableLayout>
+</ScrollView>
+

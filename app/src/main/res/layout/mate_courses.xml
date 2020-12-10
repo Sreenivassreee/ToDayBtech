@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".mate_courses"
+
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_vertical">
+    <!--android:background="@drawable/background"-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@color/sree"
+        android:minHeight="55dp"
+
+        app:subtitleTextColor="@color/white"
+        app:titleTextColor="@color/white"
+        android:fontFamily="@font/arial">
+
+    </androidx.appcompat.widget.Toolbar>
+
+        <!--app:layout_constraintBottom_toTopOf="@+id/priviousbtn"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.341"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.479" />-->
+
+
+
+
+    <Button
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+
+        android:background="@drawable/where"
+
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arial"
+
+
+
+        android:textAlignment="center"
+
+        android:textColor="@color/Red"
+        android:textSize="17sp"
+        android:text="@string/jntua_notes_courses"
+        />
+
+
+
+    <Button
+        android:id="@+id/mate_csebtn"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#930EA8"
+        android:textSize="17sp"
+        android:text="@string/cse"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arial"
+
+         />
+    <Button
+        android:id="@+id/mate_ecebtn"
+
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#0A3881"
+        android:textSize="17sp"
+        android:text="@string/ece"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arial">
+
+    </Button>
+    <Button
+        android:id="@+id/mate_eeebtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#BC390E"
+        android:textSize="17sp"
+        android:text="@string/eee"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arial"
+        />
+    <Button
+        android:id="@+id/mate_civilbtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#0074BB"
+        android:textSize="17sp"
+        android:text="@string/civil"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arial"/>
+    <Button
+        android:id="@+id/mate_mechbtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#C56300"
+        android:textSize="17sp"
+        android:text="@string/mech"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arial"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+
+
+</LinearLayout>
+
+    </TableLayout>
+</ScrollView>

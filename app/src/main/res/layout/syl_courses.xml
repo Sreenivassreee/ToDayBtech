@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    tools:context=".syl_courses">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:context=".syl_courses"
+
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical">
+        <!--android:background="@drawable/background"-->
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            app:titleTextColor="@color/white"
+            app:subtitleTextColor="@color/white"
+            android:background="@color/sree"
+            android:minHeight="55dp">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <Button
+
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+
+         android:background="@drawable/where"
+
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arial"
+
+
+            android:text="@string/syllabus_copies_courses"
+            android:textAlignment="center"
+
+            android:textColor="@color/Red"
+            android:textSize="17sp" />
+
+        <Button
+        android:id="@+id/syl_csebtn"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+
+        android:background="#930EA8"
+        android:textSize="17sp"
+        android:text="@string/cse"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="center"
+            android:fontFamily="@font/arial"
+
+
+        />
+    <Button
+        android:id="@+id/syl_ecebtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#0A3881"
+        android:textSize="17sp"
+        android:text="@string/ece"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arial"
+        />
+    <Button
+        android:id="@+id/syl_eeebtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#BC390E"
+        android:textSize="17sp"
+        android:text="@string/eee"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arial"
+
+
+
+        />
+    <Button
+        android:id="@+id/syl_civilbtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#0074BB"
+        android:textSize="17sp"
+        android:text="@string/civil"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arial"/>
+    <Button
+        android:id="@+id/syl_mechbtn"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#C56300"
+        android:textSize="17sp"
+        android:text="@string/mech"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/arial"
+        />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+
+    </LinearLayout>
+    </TableLayout>
+</ScrollView>

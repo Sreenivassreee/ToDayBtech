@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348872450270",
+    "firebase_url": "https://todaybtech-6550d.firebaseio.com",
+    "project_id": "todaybtech-6550d",
+    "storage_bucket": "todaybtech-6550d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348872450270:android:4c36b33f0b7e1552",
+        "android_client_info": {
+          "package_name": "com.stevehomes.sreeniavask.todaybtech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348872450270-uk8r2hct2odquc520fd8dk2r5ghb8ca3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stevehomes.sreeniavask.todaybtech",
+            "certificate_hash": "9373216f0b0c1ab68506ba42894e9d29d8fe4065"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkIvIGU4W4WGQKlKGzXt8tMoJGZyGUNnw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <group android:checkableBehavior="single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <item android:title="@string/stevebrains_community"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <menu
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <item
+                    android:id="@+id/playStore"
+                    android:icon="@drawable/playstore"
+                    android:title="@string/google_playstore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <item
+                    android:id="@+id/Website"
+                    android:icon="@drawable/web"
+                    android:title="@string/website"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <item
+                    android:id="@+id/facebook"
+                    android:icon="@drawable/var_facebook"
+                    android:title="@string/facebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <item
+                    android:id="@+id/Instagram"
+                    android:icon="@drawable/var_instagram"
+                    android:title="@string/instagram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <item
+                    android:id="@+id/Youtube"
+                    android:icon="@drawable/var_youtube"
+                    android:title="@string/youtube"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <item
+                    android:id="@+id/whatsapp"
+                    android:icon="@drawable/var_whatsapp"
+                    android:title="@string/whatsapp_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </menu>
+        </item>
+
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share_with_btech_friends"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <item
+                android:id="@+id/materials"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send_your_materials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/thumbsup"
+                android:title="@string/feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="@string/help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </group>
+
+    <!--<group android:checkableBehavior="single"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<item android:title="@string/night_mode"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<menu-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<item android:id="@+id/nav_switch"-->
+                    <!--app:actionLayout="@layout/action_view_switch"-->
+                    <!--android:title="Night Mode" />-->
+
+            <!--</menu>-->
+        <!--</item>-->
+    <!--</group>-->
+
+    <group android:checkableBehavior="single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <item android:title="Themes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <menu
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <item
+                    android:id="@+id/nightmode"
+                    android:icon="@drawable/dark_mode"
+                    android:title="Dark Mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <item
+                    android:id="@+id/normalmode"
+                    android:icon="@drawable/normal_mode"
+                    android:title="Light Mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </menu>
+        </item>
+    </group>
+
+
+
+    <group android:checkableBehavior="single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <item android:title="@string/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <menu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <item
+                android:id="@+id/AboutUs"
+                android:icon="@drawable/about_us"
+                android:title="@string/aboutus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/contact_us"
+                android:title="@string/contact_us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/privacy"
+                android:title="@string/privacy_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <item
+                android:id="@+id/Terms"
+                android:icon="@drawable/terms"
+                android:title="Terms And Conditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <item
+                android:id="@+id/Logout"
+                android:icon="@drawable/logout"
+                android:title="@string/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <!--<item-->
+                <!--android:id="@+id/feedback"-->
+                <!--android:icon="@drawable/thumbsup"-->
+                <!--android:title="feedback"-->
+                <!--/>-->
+            <!--<item-->
+                <!--android:id="@+id/Logout"-->
+                <!--android:icon="@drawable/logout"-->
+                <!--android:title="Logout"-->
+                <!--/>-->
+        </menu>
+    </item>
+    </group>
+
+
+</menu>
